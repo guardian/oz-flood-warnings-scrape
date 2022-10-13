@@ -18,6 +18,8 @@ with open('input/links.json') as json_file:
 
 # %%
 
+# Scraping!
+
 utc_now = pytz.utc.localize(datetime.datetime.utcnow())
 now = utc_now.astimezone(pytz.timezone("Australia/Sydney"))
 now_format = now.strftime('%Y-%m-%d-%H-%M')
