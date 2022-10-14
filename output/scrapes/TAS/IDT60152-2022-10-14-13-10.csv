@@ -1,0 +1,48 @@
+Station Name,Time/Day,Height,Tendency,Crossing,Flood Class,Recent Data,Scraped,State
+Coal,Coal,Coal,Coal,Coal,Coal,Coal,2022-10-14 13:10:02.413619+11:00,TAS
+Coal Rv at Craigbourne Dam (D),9.00am Fri,0.35,falling,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+White Kangaroos Rt abv Coal Rv (D),11.00am Fri,0.18,steady,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Coal Rv at Richmond (D),11.00am Fri,0.12,steady,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Derwent,Derwent,Derwent,Derwent,Derwent,Derwent,Derwent,2022-10-14 13:10:02.413619+11:00,TAS
+Blw Lake St Clair (Derwent Rv) (H),11.45am Fri,0.74,steady,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+King William Lake at Dam (H),12.45pm Fri,713.92^,steady,6.02 below FSL,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Derwent abv Nive (H),12.45pm Fri,0.74,steady,,,,2022-10-14 13:10:02.413619+11:00,TAS
+Little Pine Lagoon at Dam (H),12.45pm Fri,1007.18^,steady,0.18 below FSL,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Pine Tier Dam (H),12.45pm Fri,669.64^,rising,0.92 below FSL,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Nive abv Tungatinah (H),12.00pm Fri,0.65,steady,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Liapootah Pond Dam (H),12.45pm Fri,341.01^,steady,0.82 below FSL,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Wayatinah Lagoon at Intake (H),12.45pm Fri,230.44^,rising,0.59 below FSL,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Florentine Rv at Eleven Rd (H),12.45pm Fri,0.28,steady,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Florentine Rv abv Derwent Rv (H),12.45pm Fri,0.67,steady,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Catagunya lake Dam (H),12.45pm Fri,167.82^,steady,1.34 below FSL,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Repulse lake Dam (H),12.45pm Fri,124.64^,steady,0.32 below FSL,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Cluny Lagoon Dam (H),12.30pm Fri,97.30^,steady,0.54 below FSL,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Echo Lake at Dam (H),12.45pm Fri,842.01^,steady,4.42 below FSL,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Dee Rv abv Derwent Rv (H),12.45pm Fri,0.17,steady,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Derwent Rv at Glendu (H),12.45pm Fri,1.62,falling,,below minor,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Ouse Rv at Lake Augusta Intake (H),12.45pm Fri,1150.86^,steady,0.26 above FSL,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Pine Tree RT (Lake HWY) (H),12.45pm Fri,1.32,falling,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Arthurs Lake at Pump Station (H),12.45pm Fri,951.58^,steady,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Ouse Rv (blw Liawenee Canal) (H),12.45pm Fri,2.96,falling,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Ouse Rv at Monpeelyata Wier (H),12.45pm Fri,12.05,falling,,,,2022-10-14 13:10:02.413619+11:00,TAS
+St Patricks Plains (H),12.45pm Fri,0.65,steady,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Shannon Rv at Hermitage (H),12.45pm Fri,1.17,steady,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Ouse Rv at Ashton (H),12.45pm Fri,3.53,falling,,moderate,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Ouse Rv at 3B Weir (H),12.45pm Fri,4.02,falling,,moderate,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Clyde Rv ds Lake Cresent (D),11.00am Fri,0.48,steady,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Clyde Rv at Bothwell (D),10.00am Fri,1.14,rising,,below minor,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Meadowbank HEC (H),12.45pm Fri,72.77^,steady,0.38 below FSL,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Derwent Rv blw Meadowbank Dam (H),12.45pm Fri,2.55,steady,,below minor,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Tyenna Rv at Newbury (D),11.00am Fri,0.75,steady,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Styx River at Bruces Bridge,1.04pm Fri,1.17,steady,4.33 below bridge,below minor,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Plenty River at Feilton,1.01pm Fri,1.38,falling,3.19 below bridge,below minor,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Derwent Rv at Macquarie Plains (D),12.41pm Fri,0.68,steady,,below minor,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Derwent Rv abv New Norfolk Bdg (D),11.00am Fri,2.16,rising,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Derwent Rv at New Norfolk,12.57pm Fri,1.17,falling,,below minor,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Jordan,Jordan,Jordan,Jordan,Jordan,Jordan,Jordan,2022-10-14 13:10:02.413619+11:00,TAS
+Jordan Rv at Mauriceton (D),11.00am Fri,0.45,steady,,,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Huon,Huon,Huon,Huon,Huon,Huon,Huon,2022-10-14 13:10:02.413619+11:00,TAS
+Huon Rv at Harrisons Opening,12.41pm Fri,2.38,rising,,below minor,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Huon Rv at Tahune Bdge,12.51pm Fri,1.25,rising,3.75 below bridge,below minor,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Huon Rv at Judbury (D),12.59pm Fri,1.27,steady,,below minor,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS
+Huon Rv at Huonville,12.35pm Fri,2.05,rising,,below minor,Plot | Table,2022-10-14 13:10:02.413619+11:00,TAS

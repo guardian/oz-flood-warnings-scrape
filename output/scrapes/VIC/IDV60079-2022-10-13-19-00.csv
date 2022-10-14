@@ -1,0 +1,63 @@
+Station Name,Time/Day,Height,Tendency,Flood Class,Recent Data,Scraped,State
+Latrobe Catchment,Latrobe Catchment,Latrobe Catchment,Latrobe Catchment,Latrobe Catchment,Latrobe Catchment,2022-10-13 19:00:01.916158+11:00,VIC
+Latrobe R at Noojee,6.00pm Thu,1.14,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Latrobe R at Willowgrove,5.00pm Thu,1.59,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Moe R at Darnum,4.00pm Thu,1.57,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Moe R at Trafalgar East,5.00pm Thu,1.15,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Narracan Ck at Thorpdale,9.54am Thu,0.64,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Narracan Ck at Moe,4.58pm Thu,0.77,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Tanjil R at Tanjil Junction,5.00pm Thu,0.84,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Tanjil R at Tanjil South,5.00pm Thu,1.54^,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Latrobe R at Yallourn PS (L5),5.00pm Thu,36.24,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Morwell R at Boolarra,5.00pm Thu,0.62^,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Morwell R at Morwell Pumphouse,5.00pm Thu,1.66,falling,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Latrobe R at Thoms Bridge,5.00pm Thu,1.79,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Latrobe R at Rosedale,6.06pm Thu,2.24,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Latrobe R at Rosedale (Anabranch),6.00pm Thu,2.12,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Latrobe R at Kilmany South,6.00pm Thu,3.95,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Traralgon Creek Catchment,Traralgon Creek Catchment,Traralgon Creek Catchment,Traralgon Creek Catchment,Traralgon Creek Catchment,Traralgon Creek Catchment,2022-10-13 19:00:01.916158+11:00,VIC
+Traralgon Ck at Koornalla,5.55pm Thu,1.00,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Traralgon Ck at Traralgon South,6.00pm Thu,1.62,rising,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Traralgon Ck at Traralgon,6.00pm Thu,1.24,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Thomson Catchment,Thomson Catchment,Thomson Catchment,Thomson Catchment,Thomson Catchment,Thomson Catchment,2022-10-13 19:00:01.916158+11:00,VIC
+Thomson R at The Narrows,5.40pm Thu,0.54,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Aberfeldy R at Beardmore,3.35pm Thu,0.79,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Thomson R at Coopers Creek,6.02pm Thu,0.47,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Thomson R at U/S Cowwarr Weir,6.00pm Thu,2.46,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Thomson R at Heyfield,5.00pm Thu,1.08^,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Rainbow Ck at Heyfield,5.00pm Thu,0.39^,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Thomson R at Wandocka,6.00pm Thu,1.91,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Thomson R at Bundulaguah,6.00pm Thu,4.48,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Flooding Ck at Sale Wharf,5.36pm Thu,1.68,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Macalister Catchment,Macalister Catchment,Macalister Catchment,Macalister Catchment,Macalister Catchment,Macalister Catchment,2022-10-13 19:00:01.916158+11:00,VIC
+Macalister R at Glencairn,6.07pm Thu,0.86,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Macalister R at Licola,4.55pm Thu,1.81,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Macalister R at D/S Stringybark Ck,5.41pm Thu,0.74,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Glenmaggie Ck at The Gorge,5.54pm Thu,1.51,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Macalister R at Lake Glenmaggie HG,5.46pm Thu,75.82^,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Macalister R at D/S Lake Glenmaggie,5.09pm Thu,1.27,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Avon Catchment,Avon Catchment,Avon Catchment,Avon Catchment,Avon Catchment,Avon Catchment,2022-10-13 19:00:01.916158+11:00,VIC
+Avon R at The Channel,4.57pm Thu,1.82,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Freestone Ck at Briagolong,3.40pm Thu,1.50,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Avon R at Stratford,5.13pm Thu,1.64,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+South Gippsland,South Gippsland,South Gippsland,South Gippsland,South Gippsland,South Gippsland,2022-10-13 19:00:01.916158+11:00,VIC
+Bellview Ck U/S Bellview Reservoir,6.00pm Thu,0.26,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Ruby Creek @ Arawata,6.00pm Thu,0.18,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Coalition Creek,6.00pm Thu,0.22,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Little Bass R @ Poowong,6.00pm Thu,0.35,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Tarwin R @ Meeniyan,6.00pm Thu,1.19,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Powlett R D/S Foster Ck Junction,6.00pm Thu,1.55,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Powlett R Mouth of Powlett Rd,6.00pm Thu,0.69,falling,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Stony Creek @ Meeniyan,6.00pm Thu,0.64,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Tarra R at Tarra Weir Offtake,6.00pm Thu,0.36,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Tarra R at Yarram,6.00pm Thu,0.75,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Merriman Ck at Seaspray (Offtake),4.09pm Thu,0.28,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Merriman Ck at Stradbroke West,4.29pm Thu,1.97,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Gippsland Lakes,Gippsland Lakes,Gippsland Lakes,Gippsland Lakes,Gippsland Lakes,Gippsland Lakes,2022-10-13 19:00:01.916158+11:00,VIC
+Hollands Landing,6.09pm Thu,0.30,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+McMillan Strait at Paynesville,6.07pm Thu,0.15,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Nicholson R DS Pumphouse,5.00pm Thu,0.16^,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Tambo R at Batterns Landing,4.29pm Thu,1.33,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Metung Marina,6.00pm Thu,0.05,steady,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Cunningham Arm at Bullock Island,6.00pm Thu,-0.18,falling,below minor,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC
+Lakes Entrance Breakwater,6.09pm Thu,-0.26^,steady,,Plot | Table,2022-10-13 19:00:01.916158+11:00,VIC

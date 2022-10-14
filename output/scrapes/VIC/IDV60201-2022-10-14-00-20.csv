@@ -1,0 +1,84 @@
+Station Name,Time/Day,Height,Tendency,Flood Class,Recent Data,Scraped,State
+Werribee Catchment,Werribee Catchment,Werribee Catchment,Werribee Catchment,Werribee Catchment,Werribee Catchment,2022-10-14 00:20:01.961406+11:00,VIC
+Werribee R at Ballan,12.11am Fri,3.32,falling,major,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Werribee R at Bacchus Marsh,12.03am Fri,2.34,steady,below minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Parwan Ck at Parwan,11.10pm Thu,-0.54,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Lerderderg R at Sardine Ck,12.00am Fri,2.75,falling,minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Lerderderg R at U/S Goodman Ck,12.13am Fri,2.87,falling,below minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Werribee R at Melton Res D/S,11.48pm Thu,2.88^,rising,minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Toolern Ck at Melton South,12.14am Fri,0.97,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Werribee R at Werribee Cottrell St,12.00am Fri,1.57,steady,below minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Maribyrnong Catchment,Maribyrnong Catchment,Maribyrnong Catchment,Maribyrnong Catchment,Maribyrnong Catchment,Maribyrnong Catchment,2022-10-14 00:20:01.961406+11:00,VIC
+Deep Ck at Lancefield,12.10am Fri,4.14,falling,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Deep Ck at Bulla,10.02am Thu,1.38,,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Jacksons Ck at Sunbury,6.40am Thu,2.14,,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Maribyrnong R at Keilor,12.06am Fri,3.94,rising,minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Maribyrnong R at Maribyrnong,11.40pm Thu,0.58,steady,below minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Stony Ck at Spotswood,12.11am Fri,1.45,falling,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Yarra Catchment,Yarra Catchment,Yarra Catchment,Yarra Catchment,Yarra Catchment,Yarra Catchment,2022-10-14 00:20:01.961406+11:00,VIC
+Yarra R at Millgrove,12.10am Fri,1.53,steady,below minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Little Yarra R at Yarra Junction,12.02am Fri,1.33,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Woori Yallock Ck at Woori Yallock,11.33pm Thu,2.19,,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Yarra R at Yarra Grange,12.16am Thu,2.38,,below minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Yarra R at Yarra Glen,11.59pm Thu,4.16,,minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Olinda Ck at Mt Evelyn,12.08am Fri,1.80,,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Olinda Ck at Lilydale,11.55pm Thu,6.09,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Brushy Ck at Mooroolbark,2.32pm Thu,1.55,,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Mullum Mullum Ck at Doncaster East,12.08am Fri,2.30,falling,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Diamond Ck at Eltham,11.25pm Thu,3.22,,below minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Yarra R at Fitzimons Lane,10.24pm Thu,2.60,,below minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Plenty R at Mernda,11.44am Thu,0.91,,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Plenty R at Greensborough,10.12pm Thu,1.47,,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Plenty River at Lower Plenty,11.56pm Thu,2.03,rising,below minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Koonung Ck at Bulleen,10.57pm Thu,2.98,falling,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Darebin Ck at Epping,10.25pm Wed,1.31,,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Darebin Ck at Bundoora,11.25pm Thu,11.01,,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Darebin Ck at Bell St Ivanhoe,12.04am Fri,1.87,rising,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Merri Ck at Craigeburn,5.36am Thu,0.50,,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Merri Ck at Cooper St,12.07am Fri,3.44,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Merlynston Ck at Fawkner Cemetry,10.24pm Thu,1.75,rising,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Moonee Ponds Ck at Jacana,11.57pm Thu,7.17,rising,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Merri Ck at Bell St,12.05am Fri,3.47,rising,moderate,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Merri Ck at St Georges Rd,10.41pm Thu,3.24,,minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Yarra R at Johnston St,12.10am Fri,3.88,rising,minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Gardiners Ck at Kinkora Rd,12.13am Fri,1.37,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Eley Rd East Drain at Eley Rd,12.10am Fri,1.27,falling,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Gardiners Ck at Blackburn Lake,12.12am Fri,1.67,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Scotchmans Ck at Huntingdale Rd,11.35pm Thu,8.01,,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Scotchmans Ck at Waverley Rd,12.10am Fri,5.98,falling,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Gardiners Ck at Ashwood,12.14am Fri,1.42,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Gardiners Ck at Gardiners,12.14am Fri,1.42,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Edgars Ck at Edwardes Lake,12.05am Fri,0.87,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Elsternwick Main Drain,11.22pm Thu,1.18,,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+St Kilda Marina,10.42pm Thu,-0.06,falling,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Dandenong,Dandenong,Dandenong,Dandenong,Dandenong,Dandenong,2022-10-14 00:20:01.961406+11:00,VIC
+Bangalook Ck at Montrose,12.13am Fri,6.11,rising,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Dandenong Ck at the Basin,12.08am Fri,7.66,rising,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Dandenong Ck at Heathmont,12.12am Fri,5.34,falling,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Blind Ck at Knox,12.13am Fri,2.83,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Blind Ck at Wantirna south,12.09am Fri,5.61,falling,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Dandenong Ck at Rowville,12.09am Fri,3.06,rising,below minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Mile Ck at Springvale West,12.13am Fri,0.45,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Dandenong Ck at Hammond Rd,12.10am Fri,2.85,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Dandenong Ck at Greens Rd,12.06am Fri,3.11,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Mile Ck at Keysborough,12.11am Fri,1.70,falling,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Eumemmering Ck at Narre Warren Nth,12.15am Fri,1.39,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Hallam Valley at Hampton Park,12.14am Fri,2.54,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Eumemmering Ck at Lyndhurst,12.11am Fri,2.12,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Dunlops Rd Drain at Braeside,12.11am Fri,3.02,falling,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Patterson R at Whalers Cove,12.13am Fri,0.14,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Kananook Ck at Seaford,11.56pm Thu,5.61,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Bunyip,Bunyip,Bunyip,Bunyip,Bunyip,Bunyip,2022-10-14 00:20:01.961406+11:00,VIC
+Bunyip R d/s Headworks,12.10am Fri,1.98,rising,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Tonimbuk,12.01am Fri,4.20,rising,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Tarago R at Neerim South,12.13am Fri,3.79,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Bunyip R at Longwarry North,12.10am Fri,1.25,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Iona,12.10am Fri,1.24,steady,below minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Bunyip R at Cora Lynn Ford,12.13am Fri,2.23,steady,below minor,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Bunyip R Kooweerup,12.04am Fri,1.05,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Lang Lang R at Yannathan,12.07am Fri,1.64,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Deep Ck at Pakenham,12.09am Fri,5.07,rising,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Kennedy Ck at Pakenham,12.14am Fri,0.96,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Toomuc Ck at Pakenham,12.11am Fri,0.50,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Gumscrub Ck at Officer,11.47pm Thu,1.66,steady,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC
+Cardinia Ck at Cardinia,12.11am Fri,1.21,rising,,Plot | Table,2022-10-14 00:20:01.961406+11:00,VIC

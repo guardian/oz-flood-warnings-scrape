@@ -1,0 +1,48 @@
+Station Name,Time/Day,Height,Tendency,Flood Class,Recent Data,Scraped,State
+Campaspe Catchment,Campaspe Catchment,Campaspe Catchment,Campaspe Catchment,Campaspe Catchment,Campaspe Catchment,2022-10-14 06:50:01.628932+11:00,VIC
+Coliban R at Springhill,5.39am Fri,4.54,falling,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Coliban R D/S Lauriston Res,6.14am Fri,4.10,falling,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Coliban R at Malmsbury Res,6.09am Fri,6.11,rising,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Campaspe R at Redesdale,5.00am Fri,4.52^,falling,below minor,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Campaspe R at Lake Eppalock D/S,9.00pm Thu,162.69,rising,major,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Axe Ck at Strathfieldsaye,5.00am Fri,3.33,falling,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Wild Duck Ck U/S Heathcote,5.00am Fri,3.23^,falling,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Campaspe R at Barnadown,8.00pm Thu,7.37^,rising,major,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Mt. Pleasant Ck at Runnymede,5.00am Fri,4.61^,steady,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Campaspe R at Rochester Town,6.14am Fri,114.38^,rising,moderate,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Campaspe R at Rochester Syphon,6.00am Fri,8.91,steady,moderate,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Loddon Catchment,Loddon Catchment,Loddon Catchment,Loddon Catchment,Loddon Catchment,Loddon Catchment,2022-10-14 06:50:01.628932+11:00,VIC
+Loddon R at Vaughan,5.00am Fri,3.10^,falling,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Jim Crow Ck at Yandoit,6.00am Fri,2.56,falling,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Muckleford Ck at Muckleford,5.00am Fri,3.31,falling,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Loddon R at Newstead,6.00am Fri,5.62,rising,major,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Joyces Ck at Strathlea,5.45am Fri,2.30^,falling,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Middle Creek at Rodborough,5.00am Fri,2.82^,falling,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Loddon R at Cairn Curran D/S,5.00am Fri,5.81^,steady,major,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Creswick Creek at Clunes,6.00am Fri,2.92,falling,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Birch Creek at Smeaton,5.00am Fri,2.00^,rising,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Tullaroop Ck at Clunes,4.00pm Thu,3.67,rising,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Tullaroop Res (Outlet),5.00am Fri,3.41^,steady,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+McCallums Ck R at Carisbrook,5.00am Fri,3.72^,falling,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Bet Bet Ck at Bet Bet,5.00am Fri,6.62,rising,major,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Loddon R D/S Laanecoorie,5.00am Fri,7.62^,rising,major,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Loddon R at Serpentine Weir,6.00am Fri,5.54,rising,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Loddon R at Loddon Weir,5.00am Fri,6.55^,rising,moderate,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Loddon R at Appin South,5.00am Fri,3.12^,steady,moderate,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Loddon R at MV Hwy Br (Kerang),5.00am Fri,76.72,steady,below minor,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Mt Hope Ck at Mitamo,5.00am Fri,1.03^,steady,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Avoca Catchment,Avoca Catchment,Avoca Catchment,Avoca Catchment,Avoca Catchment,Avoca Catchment,2022-10-14 06:50:01.628932+11:00,VIC
+Avoca R at Ampitheatre,6.00am Fri,1.28,falling,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Avoca R at Archdale Junction,5.00am Fri,4.08^,steady,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Avoca R at Logan,5.55am Fri,7.36,steady,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Avoca R at Yawong Weir,6.00am Fri,5.29,rising,moderate,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Avoca R at Charlton Town,6.00am Fri,5.58,rising,minor,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Avoca R at Charlton D/S,5.00am Fri,4.72,rising,minor,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Avoca R at Quambatook,5.00am Fri,2.09^,steady,minor,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Murray (Riverina) Basin,Murray (Riverina) Basin,Murray (Riverina) Basin,Murray (Riverina) Basin,Murray (Riverina) Basin,Murray (Riverina) Basin,2022-10-14 06:50:01.628932+11:00,VIC
+Murray R at Barmah,6.00am Fri,6.41,steady,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Murray R at Echuca,5.00am Fri,93.03^,steady,below minor,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Murray R at Pianta Road,5.00am Fri,91.87^,steady,,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Murray R at Torrumbarry Weir,6.00am Fri,7.74,steady,moderate,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Murray R at Barham,6.00am Fri,6.12,steady,major,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC
+Murray R at Swan Hill,6.00am Fri,4.20,steady,below minor,Plot | Table,2022-10-14 06:50:01.628932+11:00,VIC

@@ -25,12 +25,14 @@ folders = os.listdir(outer)
 listo = []
 
 for folder in folders:
-  path = outer + "/" + folder + "/"
+  if folder != '.DS_Store':
+    path = outer + "/" + folder + "/"
 
-  for fillo in os.listdir(path):
-    inter = pd.read_csv(f"{path}{fillo}")
+    for fillo in os.listdir(path):
+      if fillo != '.DS_Store':
+        inter = pd.read_csv(f"{path}{fillo}")
 
-    listo.append(inter)
+        listo.append(inter)
 
 # %%
 
@@ -75,11 +77,12 @@ print(len(cat))
 
 ### Read in station id data
 
-ids = pd.read_csv('input/stations_ids.csv')
+ids = pd.read_csv('input/stations_ids_scraped.csv')
 # 'name', 'bom_stn_num'
 
 ids.rename(columns={
   'name': "Station Name", 
+  'bom_stn_num': 'Site'
 }, inplace=True)
 
 
@@ -94,7 +97,7 @@ ids['Station Name'] = ids['Station Name'].str.replace("#", '')
 ids['Station Name'] = ids['Station Name'].str.strip()
 
 wids = pd.merge(cat, ids, on='Station Name', how='left')
-wids.dropna(subset=['bom_stn_num'], inplace=True)
+wids.dropna(subset=['Site'], inplace=True)
 # p = wids 
 
 # p = p.loc[~p['bom_stn_num'].isna()]
@@ -112,29 +115,19 @@ print(not_matched)
 
 ## Read in the station data
 
-stat = pd.read_csv('input/stations.csv')
-# 'attributes.bom_stn_num', 'attributes.name', 'attributes.lat', 
-# 'attributes.long', 'attributes.state', 'attributes.location_types', 'attributes.basin'
+stat = pd.read_csv('output/station_locations.csv')
+# Site,Site name,Lat,Lon,Rank
 
-stat = stat[['attributes.bom_stn_num', 'attributes.lat', 'attributes.long', 'attributes.state', 'attributes.basin']]
+stat = stat[['Site','Site name','Lat','Lon']]
 
-dicto = {}
-for col in stat.columns.tolist():
-  dicto[col] = col.replace("attributes.", '')
 
-stat.rename(columns=dicto, inplace=True)
-
-# p = stat 
-
-# print(p)
-# print(p.columns.tolist())
 
 # %%
 
-wids['bom_stn_num'] = pd.to_numeric(wids['bom_stn_num'])
-stat['bom_stn_num'] = pd.to_numeric(stat['bom_stn_num'])
+wids['Site'] = pd.to_numeric(wids['Site'])
+stat['Site'] = pd.to_numeric(stat['Site'])
 
-tog = pd.merge(wids, stat, on='bom_stn_num', how='left')
+tog = pd.merge(wids, stat, on='Site', how='left')
 
 
 #### Clean the names
@@ -145,12 +138,14 @@ tog['Station Name'] = tog['Station Name'].str.replace("#", '')
 tog['Station Name'] = tog['Station Name'].str.strip()
 tog['Station Name'] = tog['Station Name'].str.replace("  ", ' ')
 
-tog = tog[['bom_stn_num', 'Station Name', 'Time/Day', 'Height', 'Tendency', 'Flood Class','lat', 'long']]
+tog = tog[['Site', 'Station Name', 'Time/Day', 'Height', 'Tendency', 'Flood Class','Lat', 'Lon']]
 
 tog['Last_scraped'] = now_format
 
-tog.drop_duplicates(subset=['bom_stn_num'], inplace=True)
-tog.dropna(subset=['lat', 'long','Station Name', 'Time/Day', 'Height', 'Tendency', 'Flood Class'], inplace=True)
+tog.drop_duplicates(subset=['Site'], inplace=True)
+tog.dropna(subset=['Lat', 'Lon','Station Name', 'Time/Day', 'Height', 'Tendency', 'Flood Class'], inplace=True)
+
+tog.rename(columns={'Lon': 'long', 'Lat': 'lat'}, inplace=True)
 
 p = tog 
 

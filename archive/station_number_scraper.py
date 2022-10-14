@@ -9,6 +9,7 @@ import pytz
 import re 
 import random 
 from bs4 import BeautifulSoup as bs 
+import sys
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 
@@ -40,6 +41,7 @@ for state in linkos:
 
     linko = url
     r = requests.get(linko, headers=headers)
+    print(linko)
 
     soup = bs(r.text, 'html.parser')
 
@@ -51,29 +53,36 @@ for state in linkos:
 
     for row in rows:
       try:
+        if len(row.find_all('td')) > 0:
+          cells = row.find_all('td')
 
-        cells = row.find_all('td')
-        station_name = cells[0].get_text()  
-        linker = cells[-1].a['href'].split(".")[1]
-        print(station_name)
-        print(linker)
-        # print(cells)
-        record = {"name": station_name.strip(), "bom_stn_num":linker}
+          station_name = cells[0].get_text() 
+          linker = cells[-1].a['href'].split(".")[1]
+          # print(station_name)
+          # print(linker)
+          # print(cells)
+          record = {"name": station_name.strip(), "bom_stn_num":linker}
 
-        listo.append(record)
+          listo.append(record)
 
-        old = pd.read_csv('input/stations_ids.csv')
+          old = pd.read_csv('input/stations_ids_scraped.csv')
 
-        inter = pd.DataFrame.from_records(listo)
+          inter = pd.DataFrame.from_records(listo)
+          # print(len(inter))
 
-        tog = pd.concat([old, inter])
-        tog.drop_duplicates(subset=['name'], inplace=True)
+          tog = pd.concat([old, inter])
+          tog.drop_duplicates(subset=['name'], inplace=True)
 
-        with open('input/stations_ids.csv', 'w') as f:
-          tog.to_csv(f, index=False, header=True)
+          with open('input/stations_ids_scraped.csv', 'w') as f:
+            tog.to_csv(f, index=False, header=True)
 
       except Exception as e:
-        print(e)
+        print(f"Exception is {e}")
+        print(f"Line: {sys.exc_info()[-1].tb_lineno}")
+
+        print(row)
+        print(cells)
+        # sys.exit(1)
         continue
     
     rando = random.randint(0,5)
