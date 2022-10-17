@@ -2,6 +2,7 @@
 import os 
 import pandas as pd 
 import json 
+import numpy as np 
 
 path = 'output/processed/'
 
@@ -42,22 +43,42 @@ data = combine_from_folder(path)
 
 
 # %%
-df = data.copy()
-# 'Date', 'Mean', 'Qual', 'Cutoff', 'Site'
 
-df = df[['Date',  'Site', 'Mean']]
+df = data.copy()
+
+df = df[['Date', 'Mean','Site']]
+
+df['Mean'] = pd.to_numeric(df['Mean'])
+
+p = df 
+
+print(p)
+print(p.columns.tolist())
+
+dicto = {}
 
 for site in df['Site'].unique().tolist():
   inter = df.loc[df['Site'] == site].copy()
 
-  print(len(inter))
+  inter.dropna(subset=['Mean'], inplace=True)
+
+  # print(len(inter))
   inter = remove_outliers(inter, ['Mean'], 5)
-  print(len(inter))
+  # print(len(inter))
 
-  p = inter 
+  average = inter['Mean'].mean()
 
-  print(p)
-  print(p.columns.tolist())
+  if average != np.nan: 
+
+    dicto[site] = average
+
+  # p = inter 
+
+  # print(p)
+  # print(p.columns.tolist())
 
 
+# %%
+
+print(dicto)
 # %%
