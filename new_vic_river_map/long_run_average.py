@@ -4,7 +4,7 @@ import pandas as pd
 import json 
 import numpy as np 
 
-path = 'output/processed/'
+path = 'new_vic_river_map/output/processed/'
 
 # %%
 
@@ -82,3 +82,12 @@ for site in df['Site'].unique().tolist():
 
 print(dicto)
 # %%
+
+from modules.syncData import syncData
+
+finalJson = json.dumps(dicto, indent=4)
+
+syncData(finalJson,"oz-rainfall-floods", "vic-flooding-long-term-averages.json")
+
+with open('new_vic_river_map/output/long_run_averages.json', 'w') as fp:
+    json.dump(dicto, fp)
