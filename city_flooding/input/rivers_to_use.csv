@@ -1,0 +1,21 @@
+id,name,name_clean,max,river,max-page,type
+405203,GOULBURN RIVER @ EILDON,Goulburn River at Lake Eildon,,Goulburn,5.43,gauge
+405310,GOULBURN RIVER @ GHIN GHIN,Ghin Ghin,,Goulburn,7.754,gauge
+405202,GOULBURN RIVER @ SEYMOUR,Seymour,,Goulburn,6.531,town
+405253,GOULBURN RIVER @ GOULBURN WEIR,Goulburn Weir,,Goulburn,14.465,town
+405200,GOULBURN RIVER @ MURCHISON (MCPHEES REST),Murchison,,Goulburn,12.552,town
+405204,GOULBURN RIVER @ SHEPPARTON,Shepparton,,Goulburn,,town
+405276,GOULBURN RIVER @ LOCH GARRY,Loch Garry,,Goulburn,,gauge
+405232,GOULBURN RIVER @ MCCOYS BRIDGE,McCoy's Bridge,,Goulburn,,gauge
+409200,MURRAY RIVER @ ECHUCA,Murray River at Echuca,,Murray,,town
+406201,CAMPASPE RIVER @ BARNADOWN,Barnadown,,Campaspe,,gauge
+406202,CAMPASPE RIVER @ ROCHESTER D/S WARANGA WESTERN CH SYPHN,Rochester,,Campaspe,,town
+406276,CAMPASPE RIVER @ FEHRINGS LANE,Fehrings Lane,,Campaspe,,gauge
+407203,LODDON RIVER @ LAANECOORIE,Laancoorie,,Loddon,,gauge
+407229,LODDON RIVER @ SERPENTINE WEIR,Serpentine Weir,,Loddon,,gauge
+407224,LODDON RIVER @ LODDON WEIR,Loddon Weir,,Loddon,,gauge
+407205,LODDON RIVER @ APPIN SOUTH,Appin South,,Loddon,,gauge
+407202,LODDON RIVER @ KERANG,Kerang,,Loddon,,town
+405258,GOULBURN RIVER @ LAKE EILDON (HEAD GAUGE),Lake Eildon,,Goulburn,,reservoir
+406219,CAMPASPE RIVER @ LAKE EPPALOCK (HEAD GAUGE),Lake Eppalock,,Campaspe,,reservoir
+407240,LODDON RIVER @ LAANECOORIE RESERVOIR (H. GAUGE),Laancoorie Reservoir,,Loddon,,reservoir

@@ -41,10 +41,22 @@ def combine_from_folder(pathos):
 
 data = combine_from_folder(path)
 
+### Restrict to the stations that we want
+
+rivers_to_use = pd.read_csv('new_vic_river_map/input/rivers_to_use.csv')
+
+rivers_to_use['id'] = pd.to_numeric(rivers_to_use['id'])
+
+rivers_to_use = rivers_to_use['id'].unique().tolist()
+
+data['Site'] = pd.to_numeric(data['Site'])
+
+zdf = data.loc[data['Site'].isin(rivers_to_use)]
+
 
 # %%
 
-df = data.copy()
+df = zdf.copy()
 
 df = df[['Date', 'Mean','Site']]
 
@@ -60,6 +72,8 @@ dicto = {}
 for site in df['Site'].unique().tolist():
   inter = df.loc[df['Site'] == site].copy()
 
+  print(inter)
+
   inter.dropna(subset=['Mean'], inplace=True)
 
   # print(len(inter))
@@ -67,10 +81,11 @@ for site in df['Site'].unique().tolist():
   # print(len(inter))
 
   average = inter['Mean'].mean()
+  maxxer = inter['Mean'].max()
 
   if average != np.nan: 
 
-    dicto[site] = average
+    dicto[site] = {"Average": average, "Max": maxxer}
 
   # p = inter 
 
@@ -91,3 +106,6 @@ syncData(finalJson,"oz-rainfall-floods", "vic-flooding-long-term-averages.json")
 
 with open('new_vic_river_map/output/long_run_averages.json', 'w') as fp:
     json.dump(dicto, fp)
+
+
+print([x for x in rivers_to_use if x not in df['Site'].unique().tolist()])

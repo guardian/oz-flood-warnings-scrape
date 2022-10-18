@@ -1,7 +1,7 @@
 import time 
 
-import page_scraper
+import bom_flooding_map.page_scraper as page_scraper
 
 time.sleep(10)
 
-import put_together
+import bom_flooding_map.put_together as put_together

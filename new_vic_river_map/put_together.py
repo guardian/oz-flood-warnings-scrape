@@ -43,8 +43,8 @@ corr.rename(columns={'STATION':'Site',
 
 # %%
 
-# already_done = os.listdir(out_path)
-already_done = []
+already_done = os.listdir(out_path)
+# already_done = []
 
 def combine_from_folder(pathos):
 
@@ -53,22 +53,40 @@ def combine_from_folder(pathos):
   listo = []
   
   foldos = os.listdir(pathos)
-  foldos = [pathos + x + '/' for x in foldos if (x != '.DS_Store') and (x != 'SWActiveSites.csv')]
+  foldos = [pathos + x + '/' for x in foldos if (x != '.DS_Store') and (x != 'SWActiveSites.csv') and (x != 'rivers_to_use.csv')]
 
   for foldo in foldos:
-    print(foldo)
+    # print(foldo)
     fillos = os.listdir(foldo)
 
-    fillos = [foldo + x for x in fillos if x != '.DS_Store']
-    fillos = [x for x in fillos if 'MeanWaterLevel' in x]
+    fillos = [foldo + x for x in fillos if (x != '.DS_Store') and (x != 'Site Details.csv')]
+    fillos = [x for x in fillos if '.csv' in x]
 
     # print(fillos)
 
     for fillo in fillos:
-      stem = fillo.split('/')[-1].split(".")[0]
+      if 'MeanWaterLevel' in fillo:
+        stem = fillo.split('/')[-1].split(".")[0]
+      else:
+        stem = fillo.split('/')[-1].split(".")[0]
+        print("Stemmo", stem)
 
       if f"{stem}.csv" not in already_done:
-        inter = pd.read_csv(fillo, skiprows=2)
+
+        print(fillo)
+
+        if 'MeanWaterLevel' in fillo:
+          inter = pd.read_csv(fillo, skiprows=2)
+        else:
+          inter = pd.read_csv(fillo)
+
+          inter.rename(columns = {'Storage Water Level Available for release Mean': 'Mean',
+          "Water Level (m) Available for release Mean":'Mean',
+          'Datetime': 'Date'}, inplace=True)
+
+          print(inter)
+
+
 
         inter['Date'] = pd.to_datetime(inter['Date'])
         inter['Cutoff'] = inter['Date'].dt.strftime("%Y-%m-%d")
@@ -122,16 +140,48 @@ print(zog)
 
 zog.dropna(subset=['Station name'], inplace=True)
 
-keep = ["Goulburn River","Murray River", ]
+# keep = ["Goulburn River","Murray River", ]
 
-listo = []
+# listo = []
 
-for thing in keep:
+# for thing in keep:
 
-  inter = zog.loc[(zog['Station name'].str.contains(thing))]
-  listo.append(inter)
+#   inter = zog.loc[(zog['Station name'].str.contains(thing))]
+#   listo.append(inter)
 
-goul = pd.concat(listo)
+# goul = pd.concat(listo)
+
+
+# %%
+
+def grab_and_save_sheet(pathos, outty, nammo):
+  inter = pd.read_csv(pathos)
+
+  with open(f'{outty}/{nammo}.csv', 'w') as f:
+    inter.to_csv(f, index=False, header=True)
+
+  p = inter
+
+  print(p)
+  print(p.columns.tolist())
+
+  return inter 
+
+# use = grab_and_save_sheet("https://docs.google.com/spreadsheets/d/e/2PACX-1vRO6jWS8LI8X3ut5T3E4mbhZS8CL7UeOp1qY4hhm5k-6LZaYXOk-yRUJv6YsTgbQ-OnneW8SZHQ_pjC/pub?gid=0&single=true&output=csv", '/Users/josh_nicholas/github/oz-flood-warnings-scrape/new_vic_river_map/input', 'rivers_to_use')
+
+
+# %%
+
+
+rivers_to_use = pd.read_csv('new_vic_river_map/input/rivers_to_use.csv')
+
+rivers_to_use['id'] = pd.to_numeric(rivers_to_use['id'])
+
+rivers_to_use = rivers_to_use['id'].unique().tolist()
+
+zog['Site'] = pd.to_numeric(zog['Site'])
+
+goul = zog.loc[zog['Site'].isin(rivers_to_use)]
 
 p = goul 
 
@@ -150,3 +200,9 @@ syncData(finalJson,"oz-rainfall-floods", "vic-flooding-flow-map.json")
 
 with open('new_vic_river_map/output/final_dumped.csv', 'w') as f:
   goul.to_csv(f, index=False, header=True)
+
+print(len(rivers_to_use))
+
+print(len(p['Station name'].unique().tolist()))
+
+print([x for x in rivers_to_use if x not in p['Site'].unique().tolist()])
